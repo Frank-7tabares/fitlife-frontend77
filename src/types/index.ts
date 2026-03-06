@@ -21,7 +21,7 @@ export interface RegisterData {
   password: string;
   name: string;
   phone?: string;
-  role?: 'client' | 'instructor';
+  role?: 'client' | 'instructor' | 'admin';
 }
 
 export interface AuthResponse {
